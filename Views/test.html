@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Modern Form Input</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" integrity="sha512-1T+T95TzvPZN7yW8TF2+0QIgIDwL6ubZ0/8cK9+tfEbxgT+Dl82W25J8SCEXTMCa/gw+1D/mJY6L8e4Uq+6KjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <style>
+      /* Style the form container */
+      .form-container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      }
+      /* Style the form inputs */
+      .form-input {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #eaeaea;
+        font-size: 16px;
+        color: #961919;
+      }
+      /* Style the form button */
+      .form-button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 20px;
+        background-color: #8af516;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      /* Style the form button on hover */
+      .form-button:hover {
+        background-color: #00db21;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <h2>Modern Form Input</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control form-input" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control form-input" id="email" placeholder="Enter your email address" required>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control form-input" id="password" placeholder="Enter your password" required>
+          </div>
+          <button type="submit" class="btn btn-primary form-button">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js" integrity="sha512-KnNcBkAFkiFTaGpkp7m1fT57T7Us9uJ/U71UnV7yveEmViHdV7BQIMWtGvFLt/eVNfBcH7
+  </body>
+  
+  </html>

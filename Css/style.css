@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+ 
+}
+.container-fluid{
+  background-color:aqua ;
+  background-image: url(/Assets/1526012.webp); 
+
+}
+/* .navmenu{
+  
+  transform: translateY(-50%);
+  margin-top: 100%;
+} */
+.mb-3 {
+  width: 40%; 
+  
+
+}
+.frm2 .mb-3 {
+  width: 100%;
+
+}
+.frm1 .mb-3{
+  width: 100%;
+ 
+
+}
+#exampleInputCNE{
+  border: 1px solid #000;
+  border-right: none;
+  border-top: none;
+  border-left:none ;
+  background: transparent;
+}
+
+#exampleInputNom{
+  border: 1px solid #000;
+  border-right: none;
+  border-top: none;
+  border-left:none ;
+  background: transparent;
+}
+#exampleInputPrénom{
+  border: 1px solid #000;
+  border-right: none;
+  border-top: none;
+  border-left:none ;
+  background: transparent;
+}
+#exampleInputDate{
+  border: 1px solid #000;
+  border-right: none;
+  border-top: none;
+  border-left:none ;
+  background: transparent;
+}
+#exampleInputLieu{
+  border: 1px solid #000;
+  border-right: none;
+  border-top: none;
+  border-left:none ;
+  background: transparent;
+}
+#exampleInputNationalité{
+  border: 1px solid #000;
+  border-right: none;
+  border-top: none;
+  border-left:none ;
+  background: transparent;
+}
+#div1 {
+  padding-top: 5% ; 
+  background-color: #fefffe;
+  border: 1px solid #000 ;
+  border-right: none;
+  border-top-left-radius: 6px;
+
+  
+}
+#div2 {
+  padding-top: 5% ; 
+  background-color: #fefffe;
+  border: 1px solid #000 ;
+  border-left: none;
+  border-top-right-radius: 6px;
+  
+  
+}
+.progress {
+  height: 10px;
+  margin-bottom: 30px;
+}
+
+.progress-bar {
+  background-color: #00ed57c3;
+  border-radius: 10px;
+}
